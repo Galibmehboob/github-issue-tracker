@@ -24,11 +24,12 @@ document.getElementById('signIn-btn').addEventListener('click', function (event)
         modalHead.innerText = "Great!";
         modalHead.className = "text-green-400 text-3xl font-bold";
         modalMassage.innerText = "Login Successfully!";
+
         logInModal.showModal();
 
         setTimeout(() => {
             window.location.assign("dashboard.html")
-        }, 1500); //history will store
+        }, 500); //history will store
     } else {
 
         // if false >>>> alert>>> return
